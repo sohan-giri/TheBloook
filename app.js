@@ -5,7 +5,7 @@ const bodyParser = require("body-parser");
 const ejs = require("ejs");
 const mongoose = require('mongoose');
 
-const homeStartingContent = " Hi there! I am sohan, i created this website called TheBlogBook so that people can write can write their daily blogs and journels and share it with other people.U can posts here anything you want!!!... but try  to be restpectful so that your posts doesnot hurt other's feelings. If u have any queries about this website or any suggestions for its upgradation, you can mail me at sgiri7598@gmail.com   ";
+const homeStartingContent = " Hithere! I am sohan, i created this website called TheBlogBook so that people can write can write their daily blogs and journels and share it with other people.U can posts here anything you want!!!... but try  to be restpectful so that your posts doesnot hurt other's feelings. If u have any queries about this website or any suggestions for its upgradation, you can mail me at sgiri7598@gmail.com   ";
 const app = express();
 app.set('view engine', 'ejs');
 app.use(bodyParser.urlencoded({extended: true}));
